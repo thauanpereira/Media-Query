@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    span#menu {
+        display: none;
+    }    
+
+    menu {
+        display: block;
+    }
+
+    article {
+        max-width: 768px;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        background-color: transparent;
+        border-top: none;
+    }
+
+    menu > ul > li > a:hover {
+        transition-duration: 1s;
+    }
+}

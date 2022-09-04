@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 18, 78);
+}
+
+header {
+    background-color: rgb(0, 140, 255);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.527);
+}
+
+header > h1 {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.603);
+}
+
+span#menu {
+    color: white;
+    background-color: rgb(0, 140, 255);
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+span#menu:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    text-decoration: none;
+    background-color: rgb(0, 85, 141);
+    text-align: center;
+    padding: 5px;
+    border-top: 1px solid rgb(0, 13, 71);
+    color: white;
+}
+
+menu > ul > li > a:hover {
+    background-color: rgba(0, 85, 134, 0.692);
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+    width: 70vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.521);
+}
+
+article > h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
